@@ -47,9 +47,9 @@ Set up your virtual environment
 
 Install dependencies:
 If you want a Python environment:
-python -m venv 
+python -m venv ai
 To activate the Python environment:
-venv\Scripts\activate
+ai\bin\activate
 pip install flask flask-cors transformers openai
 Run the Flask app: 
 python app.py
